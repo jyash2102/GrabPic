@@ -1,0 +1,32 @@
+# Compiled class file
+target/
+
+# Log files
+*.log
+logs/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# Local application configuration (contains local credentials)
+src/main/resources/application.properties
+
+# Uploaded event photos (keep directory structure via .gitkeep)
+uploads/*
+!uploads/.gitkeep
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
